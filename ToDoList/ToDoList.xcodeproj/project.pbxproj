@@ -19,6 +19,7 @@
 		5E8B2A071983CB5B00C82532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8B29EF1983CB5B00C82532 /* UIKit.framework */; };
 		5E8B2A0F1983CB5B00C82532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E8B2A0D1983CB5B00C82532 /* InfoPlist.strings */; };
 		5E8B2A111983CB5B00C82532 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8B2A101983CB5B00C82532 /* ToDoListTests.m */; };
+		5EA8FE301984423A009B0745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA8FE2F19844239009B0745 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5E8B2A0C1983CB5B00C82532 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		5E8B2A0E1983CB5B00C82532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E8B2A101983CB5B00C82532 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		5EA8FE2F19844239009B0745 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				5E8B29FA1983CB5B00C82532 /* AppDelegate.h */,
 				5E8B29FB1983CB5B00C82532 /* AppDelegate.m */,
+				5EA8FE2F19844239009B0745 /* Main.storyboard */,
 				5E8B29FD1983CB5B00C82532 /* Images.xcassets */,
 				5E8B29F21983CB5B00C82532 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA8FE301984423A009B0745 /* Main.storyboard in Resources */,
 				5E8B29F61983CB5B00C82532 /* InfoPlist.strings in Resources */,
 				5E8B29FE1983CB5B00C82532 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				5E8B2A161983CB5B00C82532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E8B2A171983CB5B00C82532 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				5E8B2A191983CB5B00C82532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
