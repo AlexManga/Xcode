@@ -23,6 +23,8 @@
 		5EA8FE331984649F009B0745 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8FE321984649F009B0745 /* AddToDoItemViewController.m */; };
 		5EA8FE3619846604009B0745 /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8FE3519846604009B0745 /* ToDoListTableViewController.m */; };
 		5EA8FE39198475A7009B0745 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8FE38198475A7009B0745 /* ToDoItem.m */; };
+		5EA8FE3C19851733009B0745 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EA8FE3A19851733009B0745 /* Model.xcdatamodeld */; };
+		5EA8FE3F19851998009B0745 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA8FE3E19851998009B0745 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		5EA8FE3519846604009B0745 /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
 		5EA8FE37198475A7009B0745 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
 		5EA8FE38198475A7009B0745 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		5EA8FE3B19851733009B0745 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		5EA8FE3E19851998009B0745 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA8FE3F19851998009B0745 /* CoreData.framework in Frameworks */,
 				5E8B29EE1983CB5B00C82532 /* CoreGraphics.framework in Frameworks */,
 				5E8B29F01983CB5B00C82532 /* UIKit.framework in Frameworks */,
 				5E8B29EC1983CB5B00C82532 /* Foundation.framework in Frameworks */,
@@ -107,6 +112,7 @@
 		5E8B29EA1983CB5B00C82532 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5EA8FE3E19851998009B0745 /* CoreData.framework */,
 				5E8B29EB1983CB5B00C82532 /* Foundation.framework */,
 				5E8B29ED1983CB5B00C82532 /* CoreGraphics.framework */,
 				5E8B29EF1983CB5B00C82532 /* UIKit.framework */,
@@ -123,6 +129,7 @@
 				5EA8FE2F19844239009B0745 /* Main.storyboard */,
 				5EA8FE3419846604009B0745 /* ToDoListTableViewController.h */,
 				5EA8FE3519846604009B0745 /* ToDoListTableViewController.m */,
+				5EA8FE3A19851733009B0745 /* Model.xcdatamodeld */,
 				5EA8FE37198475A7009B0745 /* ToDoItem.h */,
 				5EA8FE38198475A7009B0745 /* ToDoItem.m */,
 				5EA8FE311984649F009B0745 /* AddToDoItemViewController.h */,
@@ -263,6 +270,7 @@
 				5EA8FE3619846604009B0745 /* ToDoListTableViewController.m in Sources */,
 				5E8B29F81983CB5B00C82532 /* main.m in Sources */,
 				5EA8FE331984649F009B0745 /* AddToDoItemViewController.m in Sources */,
+				5EA8FE3C19851733009B0745 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +479,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EA8FE3A19851733009B0745 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EA8FE3B19851733009B0745 /* Model.xcdatamodel */,
+			);
+			currentVersion = 5EA8FE3B19851733009B0745 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5E8B29E01983CB5B00C82532 /* Project object */;
 }

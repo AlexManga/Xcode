@@ -10,6 +10,8 @@
 
 @interface ToDoListTableViewController : UITableViewController
 
+@property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
+
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue;
 
 @end

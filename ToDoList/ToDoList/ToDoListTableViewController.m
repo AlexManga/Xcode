@@ -18,6 +18,8 @@
 
 @implementation ToDoListTableViewController
 
+@synthesize managedObjectContext;
+
 - (void)loadInitialData {
     
     ToDoItem *item1 = [[ToDoItem alloc] init];
